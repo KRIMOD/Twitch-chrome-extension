@@ -1,0 +1,12 @@
+{
+  "name": "Twitch extension",
+  "version": "1.0",
+  "description": "Tells you when the streamer is online",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "src/index.html"
+  },
+  "background": {
+    "scripts": ["src/background.js"]
+  }
+}
